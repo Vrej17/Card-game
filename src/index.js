@@ -2,9 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import CardApp from "./App";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Blotgame from "./blotgame.jsx";
 
 const router = createBrowserRouter([
-  { path: "/", element: <CardApp />, errorElement: <div>err</div> },
+  { path: "/", element: <Blotgame/>, errorElement: <div>err</div> },
+  {path:"/cardgame",element:<CardApp/>,errorElement:<div>ein</div>},
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
