@@ -1,1 +1,1 @@
-It's a Card Game, you will pick All Ace's
+Petqe brnel 4tuxt ,terz,50,100
